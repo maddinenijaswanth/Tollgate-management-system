@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('https://etimg.etb2bimg.com/photo/92949659.cms');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+  }
+  
+  
+.heading{
+    background-color: #666;
+    padding: 10px;
+    text-align:center;
+    font-size: 35px;
+    color: white;
+  }
+
+  
+nav {
+    font-size: large;
+    float: left;
+    width: 20%;
+    height: 70%; 
+    background: #ccc;
+    padding: 20px;
+    background-color: antiquewhite;
+  }
+
+.btn {
+    position: absolute;
+    top: 15px; 
+    right: 15px;
+    padding: 10px 20px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
