@@ -8,7 +8,7 @@ body {
   
   
 .heading{
-    background-color: #666;
+    background-color: rgb(24, 24, 129);
     padding: 10px;
     text-align:center;
     font-size: 35px;
@@ -42,4 +42,8 @@ section::after {
     display: table;
     clear: both;
   }
+
+#logoutBtn {
+  border-radius: 20px;
+}
 
